@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+project(cEasyEnumString C)
+set(CMAKE_C_STANDARD 11)
+set(SOURCE_FILES src/main.c src/enum_strings.c)
+include_directories(../src)
+add_executable(cEasyEnumString ${SOURCE_FILES})
