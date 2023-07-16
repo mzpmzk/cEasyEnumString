@@ -35,7 +35,7 @@ ENUM_DEF(ErrorCode,
 ```
 This macro expands to define the enum and generate the associated string conversion functions.
 
-3. Use the generated functions to convert enum values to strings. For example:
+4. Use the generated functions to convert enum values to strings. For example:
 
 ```c   
 #include <stdio.h>
