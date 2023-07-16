@@ -79,4 +79,4 @@ function definitions.
 
 ## License
 
-This library is released under the [MIT License](LICENSE).
+This library is released under the [MIT License](LICENSE.txt).
