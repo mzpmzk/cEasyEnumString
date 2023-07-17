@@ -128,7 +128,7 @@
         #x1, #x2, #x3, #x4, #x5, #x6, #x7, #x8, #x9, #x10, #x11, #x12, #x13, #x14, #x15, #x16, #x17, #x18, #x19, #x20,\
         #x21, #x22, #x23, #x24, #x25, #x26, #x27, #x28, #x29, #x30, #x31, #x32
 
-/* Helper macros for getting the number of __VA_ARGS__ aguments */
+/* Helper macros for getting the number of __VA_ARGS__ arguments */
 #define NARGS_SEQ(_1,_2,_3,_4,_5,_6,_7,_8,_9,_10,_11,_12,_13,_14,_15,_16,_17,_18,\
                   _19,_20,_21,_22,_23,_24,_25,_26,_27,_28,_29,_30,_31,_32,N,...) N
 #define NARGS(...) NARGS_SEQ(__VA_ARGS__, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20,\
